@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="mylayout">
+<head>
+<meta charset="utf-8">
+<title>aucune ressource</title>
+</head>
+
+<body>
+	<div layout:fragment="content">
+		<img alt="Il n'existe pas de ressources correspondant à votre demande" src="../static/images/404.jpg" th:src="@{images/404.jpg}">
+	</div>
+</body>
+
+</html>
