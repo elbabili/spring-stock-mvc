@@ -34,6 +34,7 @@ public class SpringStockMvcApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {		
+		System.out.println("hello");
 //		articleRepository.findAll().forEach(a -> articleRepository.delete(a));
 		
 //		Category smartphone = categoryRepository.save(new Category("Smartphone"));
