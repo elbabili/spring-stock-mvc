@@ -8,17 +8,17 @@
  * 
  */
 
-package fr.ldnr;
+package fr.fms;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import fr.ldnr.dao.ArticleRepository;
-import fr.ldnr.dao.CategoryRepository;
-import fr.ldnr.entities.Article;
-import fr.ldnr.entities.Category;
+import fr.fms.dao.ArticleRepository;
+import fr.fms.dao.CategoryRepository;
+import fr.fms.entities.Article;
+import fr.fms.entities.Category;
 
 @SpringBootApplication
 public class SpringStockMvcApplication implements CommandLineRunner {

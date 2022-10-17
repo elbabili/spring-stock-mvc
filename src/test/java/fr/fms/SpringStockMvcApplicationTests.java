@@ -1,4 +1,4 @@
-package fr.ldnr;
+package fr.fms;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import fr.ldnr.business.ImplCaddy;
-import fr.ldnr.entities.Article;
+import fr.fms.business.ImplCaddy;
+import fr.fms.entities.Article;
 
 @SpringBootTest
 class SpringStockMvcApplicationTests {

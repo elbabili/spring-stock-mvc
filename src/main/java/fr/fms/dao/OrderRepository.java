@@ -1,8 +1,8 @@
-package fr.ldnr.dao;
+package fr.fms.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import fr.ldnr.entities.Order;
+import fr.fms.entities.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 

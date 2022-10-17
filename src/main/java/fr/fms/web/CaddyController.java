@@ -1,4 +1,4 @@
-package fr.ldnr.web;
+package fr.fms.web;
 
 import java.util.Date;
 
@@ -11,15 +11,15 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import fr.ldnr.business.ImplCaddy;
-import fr.ldnr.dao.ArticleRepository;
-import fr.ldnr.dao.CustomerRepository;
-import fr.ldnr.dao.OrderItemRepository;
-import fr.ldnr.dao.OrderRepository;
-import fr.ldnr.entities.Article;
-import fr.ldnr.entities.Customer;
-import fr.ldnr.entities.Order;
-import fr.ldnr.entities.OrderItem;
+import fr.fms.business.ImplCaddy;
+import fr.fms.dao.ArticleRepository;
+import fr.fms.dao.CustomerRepository;
+import fr.fms.dao.OrderItemRepository;
+import fr.fms.dao.OrderRepository;
+import fr.fms.entities.Article;
+import fr.fms.entities.Customer;
+import fr.fms.entities.Order;
+import fr.fms.entities.OrderItem;
 
 @Controller
 public class CaddyController {

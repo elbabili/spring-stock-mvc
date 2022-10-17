@@ -1,8 +1,8 @@
-package fr.ldnr.dao;
+package fr.fms.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import fr.ldnr.entities.Category;
+import fr.fms.entities.Category;
 
 public interface CategoryRepository extends JpaRepository<Category,Long> {
 }

@@ -1,4 +1,4 @@
-package fr.ldnr.web;
+package fr.fms.web;
 
 import javax.validation.Valid;
 
@@ -11,9 +11,10 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import fr.ldnr.dao.ArticleRepository;
-import fr.ldnr.dao.CategoryRepository;
-import fr.ldnr.entities.Article;
+
+import fr.fms.dao.ArticleRepository;
+import fr.fms.dao.CategoryRepository;
+import fr.fms.entities.Article;
 
 @Controller
 public class ArticleController {

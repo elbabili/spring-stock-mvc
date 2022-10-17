@@ -1,4 +1,4 @@
-package fr.ldnr.business;
+package fr.fms.business;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import fr.ldnr.entities.Article;
-import fr.ldnr.entities.Customer;
+import fr.fms.entities.Article;
+import fr.fms.entities.Customer;
 
 @Service //pour que spring puisse instancier cette classe 
 public class ImplCaddy implements ICaddy {

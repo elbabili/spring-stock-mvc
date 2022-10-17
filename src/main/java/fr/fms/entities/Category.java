@@ -1,4 +1,4 @@
-package fr.ldnr.entities;
+package fr.fms.entities;
 
 import java.io.Serializable;
 import java.util.Collection;

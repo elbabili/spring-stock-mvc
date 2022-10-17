@@ -1,8 +1,8 @@
-package fr.ldnr.business;
+package fr.fms.business;
 
 import java.util.List;
 
-import fr.ldnr.entities.Article;
+import fr.fms.entities.Article;
 
 interface ICaddy {
 	public void addArticle(Article article);	//ajouter un article au caddy

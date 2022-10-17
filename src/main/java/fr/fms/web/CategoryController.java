@@ -1,12 +1,12 @@
-package fr.ldnr.web;
+package fr.fms.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import fr.ldnr.dao.CategoryRepository;
-import fr.ldnr.entities.Category;
+import fr.fms.dao.CategoryRepository;
+import fr.fms.entities.Category;
 
 @Controller
 public class CategoryController {

@@ -1,8 +1,8 @@
-package fr.ldnr.dao;
+package fr.fms.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import fr.ldnr.entities.Customer;
+import fr.fms.entities.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
